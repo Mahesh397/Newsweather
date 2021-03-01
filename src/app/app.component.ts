@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   title;
   articles;
   url='https://gnews.io/api/v4/search?';
-  apikey='177d8b39dd8bf95ba159b8bde13e06c2';
+  apikey='f51f953e3f3efc34c4592ef26d426580';
   languages='ml';
   quer='news';
   getkeyword;

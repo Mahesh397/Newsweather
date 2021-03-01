@@ -1,8 +1,8 @@
-<div class="content-wrapper" style="background-color:#e6e7e8">
+<div class="content-wrapper">
     
 <div id="header" class="container-fluid">
   <div class="row">
-     <div class="align-self-center">{{'lang.newsweather' | translate}}</div>
+     <div class="align-self-center pl-sm-4">{{'lang.newsweather' | translate}}</div>
         <div class="col-sm align-self-center">
          <input type="text" id="search" placeholder="{{ 'lang.search' | translate }}" name="search" class="form-control" ngModel #key>
       </div>
@@ -10,7 +10,7 @@
       <div class="col-xs">
       <button class="btn btn-primary" type="submit" (click)=fetchkey(key.value)>{{'lang.sear' | translate}}</button>
       </div>&nbsp;
-       <div class="dropdown">
+       <div class="dropdown pr-sm-5">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
           {{'lang.choose' | translate}}<span class="caret"></span>
         </button>

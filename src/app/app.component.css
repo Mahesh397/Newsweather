@@ -14,11 +14,17 @@
   
 }  
 
+.btn:hover{
+    background-color:blue;
+}
+
 #footer {
     padding: 20px 16px;
     background:#032a63;
-  
 }  
+.content-wrapper{
+    background-color: #e6e7e8;
+}
 
 .rows{
     height: 110px;
